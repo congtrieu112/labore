@@ -1,0 +1,11 @@
+.carousel_module {
+	padding:20px 0px;
+	position:relative;
+	margin-bottom:15px;
+}
+.carousel_module .carousel_item {
+	float:left;
+	padding:5px 13px;
+	display:block;
+	text-align:center;
+}

@@ -1,0 +1,41 @@
+<extension>
+    <id>d_ajax_search</id>
+    <name>Live Ajax Search</name>
+    <description>Live Ajax search adds a live search feature to your header search bar. It has lots of styling  and configuration options and works with large databases.</description>
+    <type>module</type>
+    <version>3.2</version>
+    <mbooth_version>1.0</mbooth_version>
+    <author>Dreamvention</author>
+    <files>
+        <file>admin/mbooth/xml/mbooth_d_ajax_search.xml</file>
+		
+		<file>admin/controller/module/d_ajax_search.php</file>
+		<file>admin/language/english/module/d_ajax_search.php</file>
+		<file>admin/language/russian/module/d_ajax_search.php</file>
+		<file>admin/view/template/module/d_ajax_search.tpl</file>
+		
+		<file>catalog/controller/module/d_ajax_search.php</file>
+		<file>catalog/view/theme/default/template/module/d_ajax_search.tpl</file>
+		<file>catalog/view/theme/default/stylesheet/d_ajax_search.css</file>
+    </files>
+    <dirs>
+		<dir>admin/view/image/d_ajax_search</dir>
+	</dirs>
+    <updates>
+    	<update version="3.2"><![CDATA[
+		1. Search in descriptions.<br />		
+		]]>
+    	</update>
+    	<update version="3.1"><![CDATA[<b>New Features: </b><br />
+		1. Added link "View all results" or "No results".<br />		
+		2. add option to show or hide model in product title.
+		]]>
+    	</update>
+		<update version="3.0"><![CDATA[<b>New Features: </b><br />
+		1. New Shopunity admin design.<br />
+		2. Class search input tag moved to the admin for better compatibility.<br />
+		3. Multistore added.<br />
+		]]></update>
+		<update version="2.1"></update>
+	</updates>
+</extension>

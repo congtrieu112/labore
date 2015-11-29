@@ -1,0 +1,138 @@
+/* Tooltip */
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+	width: 200px;
+	text-align: justify;
+}
+/* Tabs */
+.vtabs a {
+	text-align: left;
+}
+/* Fields */
+select {
+	width: 135px;
+}
+/* Box */
+.box > .content {
+	border:none;
+	background: #fff;
+}
+.box .form td:nth-child(2) {
+	width: 200px;
+}
+.box .form td:first-child {
+	text-align: right;
+	width: 220px;
+}
+.box .form td:nth-child(3) {
+	text-align: right;
+	width: 220px;
+}
+.fields td {
+	height: 35px;
+}
+.fields td:first-child {
+	width: 120px;
+}
+.fields td:nth-child(2) {
+	text-align: center;
+	width: 100px;
+}
+.fields td:nth-child(3) {
+	text-align: center;
+	width: 100px;
+}
+/* Version */
+.quickcheckout {
+	color: #efefef;
+	width: 100%;
+	text-align: center;
+}
+.quickcheckout > a {
+	color: #efefef;
+}
+/* Logos */
+.quickcheckout-div {
+	display: inline-block;
+	width: 40%;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+.quickcheckout-div i {
+	padding-right: 10px;
+	float: left;
+}
+.quickcheckout-div i:hover {
+	color: #000;
+}
+/* Button */
+a.button {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+	background: #f28006;
+}
+a.button:hover {
+	background: #333;
+}
+/* Breadcrumb */
+.breadcrumb {
+	background: #fff;
+	color: #666;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 0;
+}
+.breadcrumb a {
+	color: #666;
+}
+/* Heading */
+.heading {
+	background: #ffffff;
+	height: 38px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-bottom: 1px solid #eee;
+}
+.heading h1 {
+	margin: 0px;
+	padding: 11px 0px 0px 0px;
+	color: #333;
+	font-size: 16px;
+	float: left;
+}
+.heading h1 img {
+	float: left;
+	margin-top: -1px;
+	margin-left: 3px;
+	margin-right: 8px;
+}
+.heading .buttons {
+	float: right;
+	padding-top: 7px;
+	margin-right: 5px;
+}
+.heading .buttons .button {
+	margin-left: 5px;
+}
+.heading i {
+	color: #f28006;
+}
+#content {
+	background: #777;
+	padding-top: 0px;
+}
+#container {
+	background: #777;
+}
+#footer {
+	display: none;
+}

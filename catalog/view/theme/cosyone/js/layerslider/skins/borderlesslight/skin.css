@@ -1,0 +1,214 @@
+/* LayerSlider Borderless Light Skin */
+
+
+
+.ls-borderlesslight .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-borderlesslight .ls-playvideo,
+.ls-borderlesslight .ls-nav-sides,
+.ls-borderlesslight .ls-bottom-slidebuttons a,
+.ls-borderlesslight .ls-fullscreen,
+.ls-borderlesslight .ls-loading-container {
+	background-image: url(skin.png);	
+}
+
+.ls-borderlesslight .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-borderlesslight .ls-playvideo:hover,
+.ls-borderlesslight .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-borderlesslight .ls-nav-prev, .ls-borderlesslight .ls-nav-next {
+	top:50%;
+	margin-top:-30px;
+	z-index:999;
+	height:50px;
+	width:50px;
+	background-color:#ffffff;
+	background-image: url('slider-arrows.png' );
+	border-radius:2px;
+	visibility:hidden;
+	opacity:0;
+	transition: opacity 500ms ease-in-out !important;
+}
+#layerslider-container:hover .ls-borderlesslight .ls-nav-prev, #layerslider-container:hover .ls-nav-next {
+	opacity:1;
+	visibility:visible;
+	transition: opacity 500ms ease-in-out, background-color 300ms ease-in-out, background-position 300ms ease-in-out !important;
+}
+
+.ls-borderlesslight .ls-nav-prev,
+.ls-borderlesslight .ls-nav-next {
+	z-index: 99;
+	top: 50%;
+	margin-top: -25px;	
+	position: absolute;
+}
+
+.ls-borderlesslight .ls-nav-prev {
+	left:15px;
+	background-position:0px 0px;
+}
+.ls-borderlesslight .ls-nav-prev:hover {
+	background-position:0px -50px;
+	cursor:pointer;
+}
+.ls-borderlesslight .ls-nav-next {
+	right:15px;
+	background-position:-50px 0px;	
+}
+
+.ls-borderlesslight .ls-nav-next:hover {
+	background-position:-50px -50px;
+	cursor:pointer;	
+}
+
+.ls-borderlesslight .ls-nav-start, .ls-borderlesslight .ls-nav-stop {
+	display:none	
+}
+.ls-borderlesslight .ls-bottom-slidebuttons {
+	bottom:15px;
+	right:15px;
+	position:absolute;
+	z-index:101;
+}
+.ls-borderlesslight .ls-bottom-slidebuttons a {
+	cursor:pointer;
+	float:left;
+	width:20px !important;
+	height:20px !important;
+	margin-right:3px;
+	background: url('tab-pager-ring-lgray.png') no-repeat;
+	background-position:0px 0px;
+}
+
+.ls-borderlesslight .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-borderlesslight .ls-bottom-slidebuttons a:hover {
+	background-position:0px -30px;
+}
+
+.ls-borderlesslight .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-borderlesslight .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+
+
+
+
+.ls-borderlesslight .ls-bottom-slidebuttons,
+.ls-borderlesslight .ls-bottom-slidebuttons a,
+.ls-borderlesslight .ls-nav-sides {
+	height: 36px;
+}
+
+.ls-borderlesslight .ls-bottom-slidebuttons,
+.ls-borderlesslight .ls-bottom-slidebuttons a,
+.ls-borderlesslight .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-borderlesslight .ls-bottom-slidebuttons {
+	top: -43px;
+}
+.ls-borderlesslight .ls-nav-sides {
+	top: -44px;
+}
+
+
+
+.ls-borderlesslight .ls-bottom-slidebuttons a {
+	width: 18px;
+}
+
+.ls-borderlesslight .ls-nav-sides {
+	width: 13px;	
+}
+
+
+
+.ls-borderlesslight .ls-thumbnail-hover {
+	bottom: 45px;
+	padding: 3px;
+	margin-left: 1px;
+}
+
+.ls-borderlesslight .ls-thumbnail-hover-bg {
+	background: #FFFFFF;
+}
+
+.ls-borderlesslight .ls-thumbnail-hover span {
+	border: 5px solid #FFFFFF;
+	margin-left: -5px;
+}
+
+
+
+.ls-borderlesslight .ls-thumbnail {
+	top: 15px;
+}
+
+.ls-borderlesslight .ls-thumbnail-inner {
+	padding: 2px;
+	margin-left: -2px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.ls-borderlesslight .ls-thumbnail-slide a {
+	margin-right: 2px;
+}
+
+.ls-borderlesslight .ls-nothumb {
+	background: #eee;
+}
+
+
+
+.ls-borderlesslight .ls-shadow {
+	display: none;
+}
+
+
+
+.ls-borderlesslight .ls-loading-container {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -22px;
+	background-position: -450px -150px;	
+}
+
+.ls-borderlesslight .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 11px;
+	background-image: url(loading.gif);	
+}
+
+
+
+.ls-borderlesslight .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-borderlesslight .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}
